@@ -1,15 +1,15 @@
 Project-Specific vs General Context Window Library Conventions
 =============================================================
 
-Within our project structure, we maintain two distinct sets of libraries for defining conventions, terms, and instructions: the general `AiderConventionsLibrary` and the `AiderConventionsProjectSpecificPrompts`. It is crucial to understand the role and precedence of each library to ensure consistency and clarity across the project.
+Within our project structure, we maintain two distinct sets of libraries for defining conventions, terms, and instructions: the general `ContextWindowLibrary` and the `ProjectSpecificContextWindowLibrary`. It is crucial to understand the role and precedence of each library to ensure consistency and clarity across the project.
 
-The `AiderConventionsLibrary` serves as a general repository for design patterns, coding standards, and other development conventions that are widely applicable across various projects. This library provides a foundational set of guidelines that developers can refer to when working on different aspects of the project.
+The `ContextWindowLibrary` serves as a general repository for design patterns, coding standards, and other development conventions that are widely applicable across various projects. This library provides a foundational set of guidelines that developers can refer to when working on different aspects of the project.
 
-The `AiderConventionsProjectSpecificPrompts`, on the other hand, contains definitions, conventions, and instructions that are tailored specifically to the needs and context of our current project. This includes project-specific terms, coding practices, and architectural decisions that may deviate from or build upon the general conventions found in the `AiderConventionsLibrary`.
+The `ProjectSpecificContextWindowLibrary`, on the other hand, contains definitions, conventions, and instructions that are tailored specifically to the needs and context of our current project. This includes project-specific terms, coding practices, and architectural decisions that may deviate from or build upon the general conventions found in the `ContextWindowLibrary`.
 
-It is important to note that when there is a conflict or overlap between the two libraries, the content within the `AiderConventionsProjectSpecificPrompts` takes precedence. This is because the project-specific library reflects the most current and relevant decisions that have been made to address the unique challenges and requirements of our project.
+It is important to note that when there is a conflict or overlap between the two libraries, the content within the `ProjectSpecificContextWindowLibrary` takes precedence. This is because the project-specific library reflects the most current and relevant decisions that have been made to address the unique challenges and requirements of our project.
 
-Developers / Language Models / AI or AE Agents should first consult the `AiderConventionsProjectSpecificPrompts` for guidance on project-related tasks. If the project-specific library does not contain the necessary information, developers / Language Models / AI or AE Agents may then refer to the general `AiderConventionsLibrary` for broader conventions that could be adapted to fit the project's context.
+Developers / Language Models / AI or AE Agents should first consult the `ProjectSpecificContextWindowLibrary` for guidance on project-related tasks. If the project-specific library does not contain the necessary information, developers / Language Models / AI or AE Agents may then refer to the general `ContextWindowLibrary` for broader conventions that could be adapted to fit the project's context.
 
 By adhering to this approach, we ensure that our project-specific needs are adequately addressed while still maintaining a connection to the broader set of industry-standard practices and principles.
 
