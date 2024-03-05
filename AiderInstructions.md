@@ -3,12 +3,10 @@
 ### Priority SPRs
 - CloseTheLoopPrimeDirective
 - CommentDrivenDevelopment
-- ProjectSpecificContextWindowLibrary
+- AiderConventionsLibrary
 - SparsePrimingRepresentation
 - CodingStandardsPrimerOperationalPrototypes
 - IsomorphicVerificationStrategy
 ### Priority Prompts
 - When asked to analyze you are to employ HumanInTheLoopFeedbackPriority when the validity of your assumptions is possibly unclear
 ### Secondary SPRs
-- ContextWindowLibrary
-- CodingStandardsPrimer
